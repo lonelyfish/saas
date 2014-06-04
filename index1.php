@@ -1,0 +1,1 @@
+<form method="post"> <input type="text" name="authkey"/> <input type="submit" name="submit" value="convert"/></form><br/><?php $pkey = 'aykj83752661'; if (isset($_POST['authkey'])) { echo sha1($_POST['authkey'].$pkey); }?> 
